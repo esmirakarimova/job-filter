@@ -1,0 +1,7 @@
+[
+  { "id": 1, "title": "Junior Frontend Developer", "salary": "до 80 000 ₽", "location": "Ярославль / Удалённо", "experience": "1–3 года" },
+  { "id": 2, "title": "Middle React Developer", "salary": "от 120 000 ₽", "location": "Москва", "experience": "3–5 лет" },
+  { "id": 3, "title": "Senior Frontend Developer", "salary": "от 180 000 ₽", "location": "Санкт-Петербург", "experience": "5+ лет" },
+  { "id": 4, "title": "Junior UI/UX Developer", "salary": "до 70 000 ₽", "location": "Казань / Удалённо", "experience": "1–3 года" },
+  { "id": 5, "title": "Frontend Intern", "salary": "до 40 000 ₽", "location": "Екатеринбург", "experience": "Любой" }
+]

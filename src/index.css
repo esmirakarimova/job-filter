@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+    .24turn,
+    rgba(32, 147, 254, 0.9) 0%,
+    rgba(230, 23, 254, 0.9) 90%
+  );
+}
