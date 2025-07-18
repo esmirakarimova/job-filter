@@ -43,13 +43,13 @@ npm run dev
 
 ## Dev Environment Authorization
 
-### Problem
+#### Problem
 In our dev environment, logging in with test credentials sometimes fails in a given browser, showing an “Incorrect credentials” error, even though the same credentials work elsewhere.
 
 > **Error**  
 > Incorrect credentials. Make sure that the login and the password are entered correctly and try again.
 
-### Workarounds
+#### Workarounds
 1. **Switch browsers**  
    If you see the error in your current browser, try opening the app in a different one (e.g. if it fails in Chrome, switch to Firefox, and vice versa).  
 2. **Use a private/incognito window**  
