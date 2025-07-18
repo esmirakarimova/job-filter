@@ -1,3 +1,5 @@
+- [Dev Environment Authorization]
+
 **Краткое описание решения**
 В этом проекте реализован компонент фильтрации вакансий на React + TypeScript с использованием Vite и styled-components.
 
@@ -27,3 +29,22 @@ npm install
 npm run dev   
 ```
 
+## Dev Environment Authorization
+
+### Problem
+In our dev environment, logging in with test credentials sometimes fails in a given browser, showing an “Incorrect credentials” error, even though the same credentials work elsewhere.
+
+> **Error**  
+> Incorrect credentials. Make sure that the login and the password are entered correctly and try again.
+
+### Workarounds
+1. **Switch browsers**  
+   If you see the error in your current browser, try opening the app in a different one (e.g. if it fails in Chrome, switch to Firefox, and vice versa).  
+2. **Use a private/incognito window**  
+   This isolates cookies and session data so you don’t have to switch browsers.  
+3. **Create separate browser profiles**  
+   Set up one profile per test user to keep sessions completely separate.  
+4. **Clear site data**  
+   In Chrome DevTools → Application → Clear storage → Clear site data.  
+5. **(Optional) Enable third-party cookies**  
+   If your auth service runs on a different domain, allowing these cookies can prevent login failures.
