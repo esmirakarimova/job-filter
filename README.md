@@ -41,7 +41,7 @@ npm install
 npm run dev   
 ```
 
-## Dev Environment Authorization
+## Dev Environment Authorization issue with multiple roles
 
 #### Problem
 In our dev environment, logging in with test credentials sometimes fails in a given browser, showing an “Incorrect credentials” error, even though the same credentials work elsewhere.
