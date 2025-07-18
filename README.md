@@ -1,4 +1,4 @@
-- [Dev Auth for Multiple Roles](#dev-auth-for-multiple-roles) 
+- [Dev Environment Authorization](#dev-environment-authorization)
 
 **Краткое описание решения**
 В этом проекте реализован компонент фильтрации вакансий на React + TypeScript с использованием Vite и styled-components.
